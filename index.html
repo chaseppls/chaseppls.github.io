@@ -1,10 +1,145 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <title>My GitHub Pages Site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Houston</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="PortStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+    <div class="container">
+        <div id="header">
+            <div id="name">
+                <h1>chase peeples</h1>
+            </div>
+
+            <nav id="navigation">
+                <ul class="nav">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#resume">resume</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div id="about">
+            <img id="spheres" src="spheres.jpg" alt="Anthony spheres" />
+
+            <div id="info">
+                <h2>Howdy, I'm Chase!</h2>
+                <p>
+                    I'm currently finishing up my final semester at University of Oklahoma. Following graduation,
+                    I will begin working full time at Amazon Web Services as an Associate Solutions Architect.
+                    I have a passion for technology with interests in Cloud Computing and Blockchain.
+                </p>
+
+                <p>Boomer Sooner!</p>
+
+                <div id="personalpics">
+                    <img id="ruby" class="personalimg" src="ruby.jpg" alt="Ruby Beach" />
+                    <img id="lake22" class="personalimg" src="lake22.jpg" alt="Lake 22" />
+                    <img id="seattle" class="personalimg" src="seattle.jpg" alt="Downtown Seattle" />
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div id="projects">
+            <h2 id="project_text">Projects</h2>
+
+            <div id="aws">
+                <h4>AWS Multi-Regional E-Commerce Website</h4>
+            </div>
+
+            <img id="aurora" src="architecture.jpg" alt="aws aurora" />
+
+            <div id="description">
+                <p>
+                    While interning at Amazon Web Services, I implemented a multi-regional E-commerce website
+                    that could be used to serve customers in different regions with minimal latency and high-performance.
+                </p>
+                <p>
+                    The AWS Well-Architected Framework was utilized to build secure, high-performing, resilient, and efficient
+                    infrastructure for the application.
+                </p>
+
+                <p> <h4> AWS Services Used: </h4>EC2, Route 53, S3, CloudFront, WAF, Aurora, CloudWatch, Systems Manager</p>
+            </div>
+        </div>
+
+        <div id="resume">
+            <h2 id="resume_text">Resume</h2>
+            <h4 class="subcert">Certifications</h4>
+            <div id="certs">
+                <img id="cloudprac" class="certimg" src="cloudprac.jpg" alt="Cloud Practioner Certification" />
+                <img id="sacert" class="certimg" src="sacert.jpg" alt="Solutions Architect Certification" />
+                <img id="azure" class="certimg" src="azure.jpg" alt="Azure Fundamentals Certification" />
+            </div>
+
+            <h4 class="subcert">Professional Experience</h4>
+            <div id="amazon">
+                <img id="awsgif" src="awsgif.gif" alt="AWS Image" />
+
+                <div id="awstext">
+                    <h4>
+                        Amazon Web Services - Solutions Architect Intern <br />
+                        June 2021 - August 2021
+                    </h4>
+                    <p>
+                        During the Summer of 2021, I had the opportunity to intern as a Solutions Architect at Amazon's
+                        headquarters in Seattle, WA. I got to Dive Deep, learn all about Cloud Computing and Amazon's
+                        pecuilar culutre.
+                    </p>
+                    <p>
+                        During my time as an intern, I implemented a cloud solution to optimize latency and performance for a multi-regional
+                        e-commerce website resulting in a 5x faster application.
+                    </p>
+                </div>
+            </div>
+
+            <div id="oulaw">
+                <img id="oulawimage" src="oulaw.jpg" alt="OU Law Image" />
+
+                <div id="oulawtext">
+                    <h4>
+                        OU Law - IT Support Specialist <br />
+                        August 2019 - December 2021
+                    </h4>
+                    <p>
+                        As an Information Technology Support Specialist, I assisted in the ongoing maintenance & operation of
+                        the College's technological resources in classrooms and computer labs for faculty, staff, and students.
+                        I was responsible for setting up AV equipment, PowerPoint presentations, videoconferencing software,
+                        reimaging computers and managing the IT Help Desk.
+                    </p>
+                </div>
+            </div>
+
+            <div id="skill">
+                <h4 class="subcert">Techincal Skills</h4>
+                <p id="skilltext">
+                    AWS: S3, EC2, Databases, Networking & Content Delivery <br />
+                    Web: HTML5, CSS<br />
+                    Operating Systems: Microsoft Windows, macOS, Linux, Windows Server 2000<br />
+                    Programming: Java, C#, SQL, Python
+                </p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

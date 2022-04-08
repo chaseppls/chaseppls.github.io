@@ -1,0 +1,223 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 98%;
+    min-width: 500px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#header {
+    color: black;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgba(255,255,255,.9);
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+#about {
+    margin: 0% 1% 1% 1%;
+    font-size: 1em;
+}
+
+
+#info {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    text-align: left;
+    margin: 4% 8% 5% 5%;
+    font-size: 19px;
+}
+
+#spheres {
+    margin: 3.5%;
+}
+
+img {
+    width: 36%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#projects {
+    margin: 1%;
+    border: 10% 10% 15% 10%;
+    border-bottom: 15px;
+    padding: 30px;
+    padding-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#aws {
+    text-align: center;
+    margin: 1em;
+    text-decoration: underline;
+}
+
+.subcert {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#amazon {
+    margin-top: 25px;
+}
+
+#awsgif {
+    margin: 30px 20px 20px 60px;
+}
+
+#awstext {
+    float: right;
+    margin-right: 180px;
+    width: 550px;
+}
+
+#oulaw {
+    margin-top: 25px;
+}
+
+#oulawimage {
+    margin: 45px 20px 20px 200px;
+    width: 12%;
+    height: auto;
+}
+
+#oulawtext {
+    float: right;
+    margin-right: 180px;
+    width: 550px;
+}
+
+#resume {
+    padding: 0;
+}
+
+#skill {
+    margin: 0px 300px 25px 300px;
+    border: 100px;
+    padding: 50px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+#project_text {
+    margin: 1.3em 1.2em 1.2em 0em;
+}
+
+#resume {
+    margin: 15px;
+    border: 40px;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 1.2em
+}
+
+#resume_text {
+    margin: 1.3em 1.2em 1.2em 0em;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#name {
+    font-size: 115%;
+    float: left;
+}
+
+#navigation {
+    font-size: 115%;
+    float: right;
+}
+
+#aurora {
+    margin: 5px 25px 25px 40px;
+    border: 40px;
+    padding: 40px;
+    border-top: 0;
+    padding-top: 0;
+    width: 50%;
+    height: auto;
+}
+
+#certs {
+    width: fit-content;
+    text-align: center;
+    margin: 20px;
+}
+
+.certimg {
+    width: 10%;
+    height: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.personalimg {
+    width: auto;
+    height: 13.3em;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cloudprac {
+}
+
+#description {
+    float: right;
+    width: 30%;
+    margin: 30px 40px 10px 10px;
+    padding: 30px 40px 10px 10px;
+    border: 15px;
+    vertical-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+    li a {
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: black;
+            color: white;
+        }
+
+@media screen and (max-width: 481px) {
+
+
+    /*write your CSS-Code here*/
+
+
+}
